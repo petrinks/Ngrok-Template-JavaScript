@@ -1,0 +1,18 @@
+{
+  "name": "template-dev-ngrok",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file=.env dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "dotenv": "^17.4.1",
+    "ngrok": "^5.0.0-beta.2"
+  }
+}
